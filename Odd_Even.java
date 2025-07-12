@@ -9,8 +9,10 @@ public class Odd_Even {
 
         if(x%2 == 0){
             System.out.println("Number is Even");
-        } else {
+        } else if (x%2 != 0){
             System.out.println("Number is Odd");
+        } else {
+            System.out.println("Wrong Input");
         }
         
          sc.close();
