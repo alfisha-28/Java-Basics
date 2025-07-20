@@ -17,6 +17,8 @@ public class Sum_Function {
         
         int sum = calculateSum(a, b);
         System.out.println("Sum of two numbers is : " + sum);
+
+        sc.close();
     }
 }
 

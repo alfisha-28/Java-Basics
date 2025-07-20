@@ -13,5 +13,7 @@ public class Functions {
         String name = sc.next();
         
         printMyName(name);
+
+        sc.close();
     }
 }

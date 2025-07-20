@@ -24,5 +24,7 @@ public class Factorial {
         int n = sc.nextInt();
         
         calculateFact(n);
+
+        sc.close();
     }
 }
