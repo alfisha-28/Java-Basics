@@ -9,7 +9,7 @@ public class PowerOfTwo {
         System.out.print("Enter a number: ");
         long num = sc.nextLong();
         
-        /*num & (num - 1) → A power of 2 in binary has exactly one bit set (e.g., 1 → 0001, 2 → 0010, 4 → 0100).
+        /* num & (num - 1) → A power of 2 in binary has exactly one bit set (e.g., 1 → 0001, 2 → 0010, 4 → 0100).
             Subtracting 1 flips all bits after that single set bit.
             Performing AND results in 0 only if the number is a power of 2.*/
             
